@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "878508552718",
+    "firebase_url": "https://busproject-acc9b.firebaseio.com",
+    "project_id": "busproject-acc9b",
+    "storage_bucket": "busproject-acc9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878508552718:android:3611ab331cc9aa49",
+        "android_client_info": {
+          "package_name": "com.example.hp.busproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878508552718-43rtv4ik3283om3cq2al1mijjllp6hid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.busproject",
+            "certificate_hash": "0D5B70F471183C8A35BA19033A3EBC60A66E7119"
+          }
+        },
+        {
+          "client_id": "878508552718-e1kngkqufrs0ts9to11iekgshaef3r6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXsbb8PxtLRydbxsNaQY2LLFXUad7Aebk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878508552718-e1kngkqufrs0ts9to11iekgshaef3r6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

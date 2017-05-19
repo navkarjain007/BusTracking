@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/BusRouteNo"
+        android:hint="Bus Route No" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/DriverName"
+        android:layout_below="@+id/BusRouteNo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:hint="Driver Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/PhoneNo"
+        android:hint="Phone No"
+        android:layout_below="@+id/DriverName"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+
+
+    <Button
+        android:text="ADD Driver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AddDriver"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="97dp"
+        android:onClick="Add"/>
+
+    <EditText
+        android:id="@+id/DriverEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/DriverPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/AddDriver"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

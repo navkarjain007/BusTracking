@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="Add Driver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:id="@+id/AddDriver"
+        android:onClick="click"/>
+
+    <Button
+        android:text="Add Parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AddDriver"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:id="@+id/AddParent"
+        android:onClick="click"/>
+
+    <Button
+        android:text="View Bus Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AddParent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:id="@+id/ViewBus"
+        android:onClick="click"/>
+</RelativeLayout>
